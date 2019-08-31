@@ -1,4 +1,5 @@
 import React from "react"
+import { FaPizzaSlice } from "react-icons/fa" // TODO: look up more on font awesome
 
 export const Header = () => {
   const temp = 1
@@ -9,9 +10,10 @@ export const Header = () => {
         <div className="logo"></div>
         <div className="settings">
           <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+            <li>+</li>
+            <li>
+              <FaPizzaSlice />
+            </li>
           </ul>
         </div>
       </nav>
